@@ -13,11 +13,15 @@ int fibbo(int n){
 
 }
 
+int calculoFibbo(int n){
+    fibbo(n);
+}
+
 int main(){
 
     int n;
     cin>>n;
-    cout<<fibbo(n);
+    cout<<calculoFibbo(n);
     return 0;
 }
 

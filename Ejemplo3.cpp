@@ -15,10 +15,15 @@ int suma(int matrix[],int n){
 
 }
 
+int calculoSuma(){
+    return suma(LaMatriz,5);
+}
+
 int main(){
 
-    cout<<suma(LaMatriz,5);
+    cout<<calculoSuma();
 
     return 0;
 }
+
 
